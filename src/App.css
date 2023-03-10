@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.border-solid-1 {
+  border: 1px solid black !important;
+}
+
+.second-title span:first-child {
+  font-size: 0.5rem !important;
+}
+.second-title span:last-of-type {
+  font-size: 0.75rem !important;
+}
+.second-title img {
+  width: 20px;
+  height: 20px;
+}
+
+.secure-code .input-group {
+  background-color: white;
+}
+
+.secure-code input.back-code {
+  border: none !important;
+  outline-style: none;
+  width: 5rem;
+}
+
+.secure-code input:active,
+.secure-code input:focus {
+  border: none !important;
+}
+
+.method-list {
+  margin-left: -1rem;    
+}
+
+.method-list .visa-part {
+  padding: 1rem;
+  border: 1px solid #b9d6f3;
+  background: #f2f7fc;
+}
+
+.card-method span {
+  color: #2d6cd7;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.card-method span:hover {
+  color: #083480;
+}
+
+.method-add {
+  margin-left: -1rem;
+}
+
+.method-add div {
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.method-add span {
+  color: #2d6cd7;
+  font-weight: 500;
+}
+
+.payment-section hr {
+  margin-left: -1rem;
+}
+
+.description-area h6, 
+.description-area p {
+  font-weight: 500;
+}
+
+.description-area span {
+  color: #2d6cd7;
+  cursor: pointer;
+}
+
+.description-area span:hover {
+  color: #083480;
+}
+
+.order-section .cancel-order {
+  color: #2d6cd7;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1.25rem;
+}
+
+.terms-use p,
+.terms-use span {
+  font-weight: 500;
+}
+
+.terms-use span {
+  color: #2d6cd7;
+  cursor: pointer;
+}
+
+.order-btn {
+  width: 100%;
+  background-color: #3b7e2a !important;
+  border: none !important;
+}
+
+.order-help {
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 10px;
+}
